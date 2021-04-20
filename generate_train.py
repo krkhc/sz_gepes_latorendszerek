@@ -3,7 +3,7 @@
 import os
 
 image_files = []
-os.chdir(os.path.join("data", "obj"))
+os.chdir(os.path.join("obj"))
 for filename in os.listdir(os.getcwd()):
     if filename.endswith(".jpg"):
         image_files.append("data/obj/" + filename)
